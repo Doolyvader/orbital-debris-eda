@@ -31,23 +31,23 @@ The project grew out of introductory engineering data-analysis coursework and ap
 
 From mean motion \(n\) in revolutions/day,
 
-\[
+$$
 T_{\mathrm{min}}=\frac{1440}{n}.
-\]
+$$
 
 After converting mean motion to rad/s,
 
-\[
+$$
 a=\left(\frac{\mu}{n^2}\right)^{1/3},
-\]
+$$
 
 and the notebook defines
 
-\[
+$$
 h_{\mathrm{approx}}=a-R_E.
-\]
+$$
 
-`h_approx` is a semi-major-axis-based **mean-altitude proxy**, not instantaneous altitude, perigee, or apogee.
+$h_{\mathrm{approx}}$ is a semi-major-axis-based **mean-altitude proxy**, not instantaneous altitude, perigee, or apogee.
 
 ## Cached snapshot results
 
